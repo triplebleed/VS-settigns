@@ -1,0 +1,177 @@
+{
+    // Editor
+    "editor.acceptSuggestionOnCommitCharacter": false, // Принятие предложений при вводе символа фиксации (;)
+    "editor.cursorSmoothCaretAnimation": "on", // Плавная анимация курсора
+    "editor.cursorStyle": "line-thin", // Стиль курсора
+    "editor.cursorSurroundingLines": 5, // Кол-во строк которые видны при скролле вверх/вниз
+    "editor.codeLens": false, // Отображение СodeLens
+    "editor.detectIndentation": false, // Автоматическое изменение отступов в файлах
+    "editor.defaultColorDecorators": true, // Отображение цветовых меток рядом с кодом цвета (например #000000)
+    "editor.dragAndDrop": false, // Перемещение выделенного текста
+    "editor.experimentalWhitespaceRendering": "off", // Методы отрисовки пробела
+    "editor.find.autoFindInSelection": "multiline", // Автоматический поиск в выделенном тексте (только при многострочном выделении)
+    "editor.fontFamily": "Tahoma, MS Sans Serif, Verdana, monospace", // Шрифты
+    "editor.fontLigatures": true, // Использование лигатур
+    "editor.fontSize": 16, // Размер шрифта
+    "editor.folding": false, // Сворачивание кода
+    "editor.formatOnPaste": true, // Форматирование при вставке
+    "editor.formatOnSave": true, // Форматирование при сохранении
+    "editor.formatOnType": true, // Форматирование при печати
+    "editor.hover.enabled": false, // Подсказки при наведении
+    "editor.inlineSuggest.enabled": true, // Подсказки при печати на строке (нужны для copilot)
+    "editor.inlayHints.enabled": "offUnlessPressed", // Подсказки в строке
+    "editor.linkedEditing": true, // Свзяанное редактирование
+    "editor.lightbulb.enabled": false, // Использование лампочки
+    "editor.minimap.enabled": false, // Отображение мини-карты
+    "editor.mouseWheelZoom": true, // Приближение с помощью колеса
+    "editor.occurrencesHighlight": false, // Выделение всех одинаковых слов при клике на слово
+    "editor.overviewRulerBorder": false, // Отображение границы скролла
+    "editor.parameterHints.enabled": false, // Подсказки при вводе параметров
+    "editor.renderFinalNewline": "dimmed", // Отображение последней строки
+    "editor.renderLineHighlight": "all", // Выделение текущей строки
+    "editor.renderWhitespace": "all", // Отображение пробелов
+    "editor.scrollbar.horizontalScrollbarSize": 14, // Размер горизонтального скролла
+    "editor.scrollBeyondLastColumn": 10, // Кол-во символов которые отображаются после конца строки
+    "editor.smoothScrolling": true, // Плавная анимация скроллинга
+    "editor.suggest.insertMode": "replace", // Перезапись при вставке
+    "editor.snippetSuggestions": "top", // Отображение предложений по словам
+    "editor.inlineSuggest.suppressSuggestions": true, // Отключение предложений когда есть предложения от GitHub Copilot (не работает в этой версии)
+    "editor.codeActionsOnSave": { // Действия при сохранении
+        "source.fixAll": true, // Форматирование
+        "source.organizeImports": true, // Форматирование Imports
+        "source.organizeLinkDefinitions": true // Форматирование ссылок в Markdown
+    },
+    "editor.rulers": [
+        100 // Вертикальная линия
+    ],
+    // DiffEditor
+    "diffEditor.maxComputationTime": 0, // Время через которое отменяется поиск несовпадений
+    "diffEditor.experimental.useVersion2": true, // Использование нового редактора сравнения
+    "diffEditor.experimental.showMoves": true, // Отображение перемещений
+    "diffEditor.experimental.collapseUnchangedRegions": true, // Отобржение неизмененных регионов
+    // Files
+    "files.autoSave": "afterDelay", // Автосохранение
+    "files.insertFinalNewline": true, // Удаление лишних строк при сохранении
+    "files.trimFinalNewlines": true, // Вставка последней строки в конец при сохранении
+    "files.trimTrailingWhitespace": true, // Удаление лишних пробелов при сохранении
+    // WorkBench
+    "workbench.editor.revealIfOpen": true, // Переход к активной вкладке при открытии если она уже открыта в группе
+    "workbench.editor.tabCloseButton": "off", // Кнопка закрытия вкладок
+    "workbench.editor.tabSizing": "shrink", // Размер вкладок
+    "workbench.editor.wrapTabs": true, // Размещение вкладок на нескольких строчках
+    "workbench.iconTheme": "material-icon-theme", // Иконки
+    "workbench.list.defaultFindMode": "filter", // Режим поиска в проводнике
+    "workbench.list.smoothScrolling": true, // Плавная прокрутка
+    "workbench.startupEditor": "none", // Начальный экран
+    "workbench.tips.enabled": false, // Советы на подложке
+    "workbench.editor.untitled.hint": "hidden", // Советы в новых файлах
+    "workbench.tree.renderIndentGuides": "always", // Отображение отступов в проводнике
+    "workbench.view.alwaysShowHeaderActions": true, // Режим отображения путей
+    "workbench.commandPalette.experimental.useSemanticSimilarity": true, // Поиск по смыслу
+    // Breadcrumbs
+    "breadcrumbs.enabled": false, // Активные хлебные крошки
+    // Window
+    "window.closeWhenEmpty": true, // Закрывать редактор при закрытии последней вкладки в ОКНЕ
+    "window.customMenuBarAltFocus": false, // Фокус при нажатии ALT
+    "window.enableMenuBarMnemonics": false, // Мнемоника
+    "window.newWindowDimensions": "inherit", // Размер нового открывающегося окна
+    "window.openWithoutArgumentsInNewWindow": "off", // Открывать новое окно без аргументов
+    "window.restoreFullscreen": true, // Восстановление полноэкранного окна
+    "window.title": "${AppName}", // Заголовок окна
+    "window.zoomLevel": 0.666, // Масштаб окна
+    // Explorer
+    "explorer.compactFolders": false, // Компактные папки
+    "explorer.confirmDelete": false, // Подтверждение удаления файла
+    "explorer.confirmDragAndDrop": false, // Подтверждение переноса файла
+    "explorer.incrementalNaming": "smart", // Стратегия наименования файлов
+    // Search
+    "search.showLineNumbers": true, // Показывать номера строк при поиске
+    "search.quickOpen.includeHistory": false, // Включать историю в поиск quickOpen
+    "search.smartCase": true, // Умный регистр при поиске
+    // Debug
+    "debug.console.fontSize": 16, // Размер шрифта в консоли отладки
+    "debug.toolBarLocation": "docked", // Расположение панели отладки
+    "debug.showBreakpointsInOverviewRuler": true, // Отображение точек останова на полосе прокрутки
+    "debug.inlineValues": "on", // Отображение значений переменных во время отладки
+    "debug.onTaskErrors": "showErrors", // Действия при обнаружении ошибок при отладке
+    "debug.openDebug": "openOnSessionStart", // Когда открывать отладчик
+    "debug.openExplorerOnEnd": true, // Открытие проводника после отладки
+    // Scm
+    "scm.inputFontSize": 15, // Шрифт в окне Git
+    "scm.alwaysShowActions": true, // Всегда показывать кнопки в репозитории
+    // Terminal
+    "terminal.integrated.smoothScrolling": true, // Плавная прокрутка
+    "terminal.integrated.cursorBlinking": true, // Мигание курсора
+    "terminal.integrated.cursorStyle": "underline", // Стиль курсора
+    "terminal.integrated.fontSize": 16, // Размер шрифта
+    "terminal.integrated.fontFamily": "monospace", // Шрифт
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Bash": {
+            "path": [
+                "C:\\soft\\programms\\PortableGit\\bin\\bash.exe"
+            ]
+        }
+    },
+    // Chat
+    "chat.experimental.defaultMode": "both", // Режим отображения чата
+    "chat.editor.fontSize": 16, // Размер шрифта в чате
+    // Update
+    "update.enableWindowsBackgroundUpdates": false, // Автоматическое обновление
+    "update.mode": "start", // Режим обновления
+    // Telemetry
+    "telemetry.telemetryLevel": "off", // Телеметрия
+    // Security
+    "security.workspace.trust.enabled": false, // Доверие рабочей области
+    // GitHub Copilot
+    "github.copilot.inlineSuggest.enable": true, // Включение GitHub Copilot
+    // Git
+    "git.autofetch": true, // Автообновление веток в репозитории
+    //"git.enableSmartCommit": true, // Автокоммит
+    //"git.useCommitInputAsStashMessage": true,
+    //"git.followTagsWhenSync": true,
+    //"git.pullBeforeCheckout": true,
+    "git.ignoreMissingGitWarning": true, // Игнорировать предупреждение о том, что Git не установлен
+    "git.path": "C:\\soft\\programms\\PortableGit\\bin\\git.exe", // Путь к Git
+    "git.defaultCloneDirectory": "C:\\Users\\triplebleed\\Documents\\Repos", // Путь к папке с репозиториями
+    "git.autoStash": true, // Автосохранение изменений при переключении веток
+    "git.fetchOnPull": true, // Автообновление веток в репозитории
+    "git.alwaysShowStagedChangesResourceGroup": true, // Показывать изменения в репозитории
+    "git.mergeEditor": true, // Редактор при слиянии веток
+    "git.pruneOnFetch": true, // Удаление удаленных веток
+    "git.untrackedChanges": "separate", // Отображение изменений в репозитории
+    // Code Runner
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.enableAppInsights": false,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.ignoreSelection": true,
+    // Python
+    "black-formatter.args": [ // Аргументы для black formatter
+        "--line-length", // Длина строки
+        "100",
+        "--skip-string-normalization" // Не нормализовать строки
+    ],
+    "python.analysis.completeFunctionParens": true, // Скообки при автодополнении
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter" // Форматировщик
+    },
+    "python.formatting.provider": "none",
+    "python.analysis.autoFormatStrings": true, // Автоформатирование f-строк
+    "markdown.validate.enabled": true
+}
