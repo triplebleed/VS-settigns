@@ -114,7 +114,11 @@
     "terminal.integrated.profiles.windows": { // Профили терминала
         "PowerShell": {
             "source": "PowerShell",
-            "icon": "terminal-powershell"
+            "icon": "terminal-powershell",
+            "args": [
+                "-ExecutionPolicy",
+                "RemoteSigned"
+            ]
         },
         "Command Prompt": {
             "path": [
@@ -143,7 +147,7 @@
     // Security
     "security.workspace.trust.enabled": false, // Доверие в рабочей области
     // GitHub Copilot
-    "github.copilot.inlineSuggest.enable": true, // Выключение GitHub Copilot
+    "github.copilot.inlineSuggest.enable": false, // Выключение GitHub Copilot
     // Git
     "git.autofetch": true, // Автообновление веток в репозитории
     "git.autoStash": true, // Прятать перед вытягиванием и восстанавливать после вытягивания
@@ -184,7 +188,7 @@
     "python.languageServer": "Pylance", // Тип языкового сервера
     "python.terminal.activateEnvInCurrentTerminal": true, // Автоактвация среды
     // Python Inlay Hints
-    "python.analysis.inlayHints.callArgumentNames": true,
+    "python.analysis.inlayHints.callArgumentNames": "all",
     "python.analysis.inlayHints.functionReturnTypes": true,
     "python.analysis.inlayHints.pytestParameters": true,
     "python.analysis.inlayHints.variableTypes": true,
