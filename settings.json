@@ -20,8 +20,7 @@
     "editor.hover.enabled": false, // Подсказки при наведении
     "editor.inlayHints.enabled": "offUnlessPressed", // Подсказки в строке (CTRL + ALT)
     "editor.inlineSuggest.enabled": true, // Подсказки при печати в строке (по умолчанию включены, нужны для copilot)
-    "editor.inlineSuggest.suppressSuggestions": true, // Отключение предложений когда есть предложения от GitHub Copilot (не работает в этой версии)
-    "editor.lightbulb.enabled": true, // Отображение лампочки (по умолчанию включена)
+    "editor.inlineSuggest.suppressSuggestions": true, // Отображение лампочки (по умолчанию включена)
     "editor.linkedEditing": true, // Связанное редактирование
     "editor.minimap.enabled": false, // Отображение мини-карты
     "editor.mouseWheelZoom": true, // Приближение с помощью колеса
@@ -65,6 +64,7 @@
     "workbench.list.smoothScrolling": true, // Плавная прокрутка
     "workbench.startupEditor": "none", // Начальный экран
     "workbench.tips.enabled": false, // Советы на подложке
+    "workbench.tree.enableStickyScroll": false, // StickyScroll в рабочей области
     "workbench.tree.indent": 14, // Отступ между файлами в проводнике
     "workbench.tree.renderIndentGuides": "always", // Отображение отступов в проводнике
     "workbench.view.alwaysShowHeaderActions": true, // Всегда отображать кнопки рабчей области
@@ -110,8 +110,7 @@
     "terminal.integrated.cursorStyle": "underline", // Стиль курсора в терминале
     "terminal.integrated.cursorStyleInactive": "none", // Стиль курсора в неактивном терминале
     "terminal.integrated.defaultProfile.windows": "Command Prompt", // Терминал по умолчанию
-    "terminal.integrated.fontFamily": "Consolas", // Шрифт в терминале
-    "terminal.integrated.fontSize": 16, // Размер шрифта в терминале
+    "terminal.integrated.fontFamily": "Consolas", // Размер шрифта в терминале
     "terminal.integrated.smoothScrolling": true, // Плавная прокрутка в терминале
     "terminal.integrated.profiles.windows": { // Профили терминала
         "PowerShell": {
@@ -200,7 +199,7 @@
     "code-runner.ignoreSelection": true, // Игнорировать выделение
     "code-runner.runInTerminal": true, // Запуск в терминале
     "code-runner.saveFileBeforeRun": true, // Сохранение файла перед запуском
-    "code-runner.showExecutionMessage": true, // Отображение сообщения о запуске
+    "code-runner.showExecutionMessage": false, // Отображение сообщения о запуске
     "code-runner.showRunCommandInEditorContextMenu": false, // Показывать кнопку запуска в контекстном меню редактора
     "code-runner.showRunCommandInExplorerContextMenu": false, // Показывать кнопку запуска в контекстном меню проводника
     "code-runner.executorMap": {
