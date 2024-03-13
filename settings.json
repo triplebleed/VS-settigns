@@ -11,7 +11,7 @@
     "editor.experimentalWhitespaceRendering": "off", // Методы отрисовки пробела
     "editor.find.autoFindInSelection": "multiline", // Автоматический поиск в выделенном тексте (только при многострочном выделении)
     "editor.folding": false, // Сворачивание кода
-    "editor.fontFamily": "Tahoma, MS Sans Serif, Verdana, Consolas , monospace", // Шрифты в редакторе кода
+    "editor.fontFamily": "Tahoma, MS Sans Serif, Verdana, Arial, Consolas , monospace", // Шрифты в редакторе кода
     "editor.fontLigatures": true, // Использование лигатур
     "editor.fontSize": 16, // Размер шрифта в редакторе кода
     "editor.formatOnPaste": true, // Форматирование при вставке
@@ -34,7 +34,7 @@
     "editor.scrollBeyondLastColumn": 10, // Кол-во символов которые отображаются после конца строки
     "editor.smoothScrolling": true, // Плавная анимация скроллинга
     "editor.snippetSuggestions": "top", // Отображение сниппетов
-    "editor.suggest.insertMode": "replace", // Перезапись при принятии
+    "editor.suggest.insertMode": "replace", // Перезапись при принятии (!!!)
     "editor.codeActionsOnSave": {
         "source.fixAll": "never",
         "source.organizeImports": "explicit",
@@ -101,7 +101,7 @@
     "scm.alwaysShowActions": true, // Всегда отображаются кнопки в окне SCM
     "scm.diffDecorationsGutterVisibility": "hover", // Отображение индикатора изменений в текстовом редакторе
     "scm.diffDecorationsGutterWidth": 5, // Ширина индикатора изменений в текстовом редакторе
-    "scm.inputFontSize": 16, // Шрифт в окне SCM
+    "scm.inputFontSize": 16, // Размер шрифта в окне SCM
     "scm.diffDecorationsGutterPattern": { // Шаблон индикатора изменений в текстовом редакторе
         "modified": false
     },
@@ -110,7 +110,7 @@
     "terminal.integrated.cursorStyle": "underline", // Стиль курсора в терминале
     "terminal.integrated.cursorStyleInactive": "none", // Стиль курсора в неактивном терминале
     "terminal.integrated.defaultProfile.windows": "Command Prompt", // Терминал по умолчанию
-    "terminal.integrated.fontFamily": "Consolas", // Размер шрифта в терминале
+    "terminal.integrated.fontFamily": "Consolas", // Шрифт в терминале
     "terminal.integrated.smoothScrolling": true, // Плавная прокрутка в терминале
     "terminal.integrated.profiles.windows": { // Профили терминала
         "PowerShell": {
@@ -134,7 +134,7 @@
         },
         "Bash": {
             "path": [
-                "C:\\soft\\programms\\PortableGit\\bin\\bash.exe"
+                "D:\\programms\\PortableGit\\bin\\bash.exe"
             ]
         }
     },
@@ -148,7 +148,7 @@
     // Security
     "security.workspace.trust.enabled": false, // Доверие в рабочей области
     // GitHub Copilot
-    "github.copilot.editor.enableAutoCompletions": false, // Выключение GitHub Copilot
+    "github.copilot.editor.enableAutoCompletions": false, // Включение GitHub Copilot
     // Git
     "git.autofetch": true, // Автообновление веток в репозитории
     "git.autoStash": true, // Прятать перед вытягиванием и восстанавливать после вытягивания
@@ -158,7 +158,7 @@
     "git.enableSmartCommit": true, // Умный коммит
     "git.followTagsWhenSync": true, // Отправлять аннотированные теги при синхронизации
     "git.mergeEditor": true, // Трёхстороннее слияние автоматически
-    "git.path": "C:\\soft\\programms\\PortableGit\\bin\\git.exe", // Путь к Git
+    "git.path": "D:\\programms\\PortableGit\\bin\\git.exe", // Путь к Git
     "git.pruneOnFetch": true, // Удаляет удалённые ветки из локального репозитория если они были удалены в удалённом
     "git.pullBeforeCheckout": true, // Вытягивать при переключении веток
     "git.terminalGitEditor": true, // VSCode в качестве редактора Git
@@ -185,7 +185,7 @@
     },
     "python.analysis.autoFormatStrings": true, // Автоформатирование f-строк при вводе {
     "python.analysis.autoImportCompletions": true, // Авто-импорт
-    "python.analysis.completeFunctionParens": true, // Скобки при автодополнении функций
+    "python.analysis.completeFunctionParens": true, // Скобки при автодополнении функций (!!!)
     "python.languageServer": "Pylance", // Тип языкового сервера
     "python.terminal.activateEnvInCurrentTerminal": true, // Автоактвация среды
     // Python Inlay Hints
