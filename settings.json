@@ -35,6 +35,7 @@
     "editor.smoothScrolling": true, // Плавная анимация скроллинга
     "editor.snippetSuggestions": "top", // Отображение сниппетов
     "editor.suggest.insertMode": "replace", // Перезапись при принятии (!!!)
+    "editor.stickyScroll.enabled": false, // Sticky Scroll
     "editor.codeActionsOnSave": {
         "source.fixAll": "never",
         "source.organizeImports": "explicit",
@@ -53,6 +54,7 @@
     "files.trimFinalNewlines": true, // Вставка последней строки в конец при сохранении
     "files.trimTrailingWhitespace": true, // Удаление лишних пробелов при сохранении
     // WorkBench
+    "workbench.editor.alwaysShowEditorActions": true, // Всегда показывать действия в редакторе
     "workbench.editor.empty.hint": "hidden", // Подсказки при создании нового файла
     "workbench.editor.preventPinnedEditorClose": "never", // Способы закрытия закреплённых вкладок
     "workbench.editor.revealIfOpen": true, // Переход к активной вкладке при открытии если она уже открыта в группе
@@ -79,7 +81,7 @@
     "window.openWithoutArgumentsInNewWindow": "off", // Открывать новое окно без аргументов
     "window.restoreFullscreen": true, // Восстановление полноэкранного окна
     "window.title": "$(appName)", // Заголовок окна
-    "window.zoomLevel": 0.666, // Масштаб окна
+    "window.zoomLevel": 1, // Масштаб окна
     // Explorer
     "explorer.compactFolders": false, // Компактные папки
     "explorer.confirmDelete": false, // Подтверждение удаления файла
@@ -154,7 +156,7 @@
     "git.autoStash": true, // Прятать перед вытягиванием и восстанавливать после вытягивания
     "git.closeDiffOnOperation": true, // Закрывать редактор несовпадений при операции
     "git.confirmSync": false, // Подтверждать синхронизацию
-    "git.defaultCloneDirectory": "C:\\Users\\triplebleed\\Documents\\Repos", // Путь к папке с репозиториями
+    "git.defaultCloneDirectory": "C:\\Users\\triplebleed\\Documents", // Путь к папке с репозиториями
     "git.enableSmartCommit": true, // Умный коммит
     "git.followTagsWhenSync": true, // Отправлять аннотированные теги при синхронизации
     "git.mergeEditor": true, // Трёхстороннее слияние автоматически
