@@ -26,7 +26,7 @@
     "editor.mouseWheelZoom": true, // Приближение с помощью колеса
     "editor.occurrencesHighlight": "off", // Выделение всех одинаковых слов при клике на слово
     "editor.overviewRulerBorder": false, // Отображение границы скролла
-    "editor.parameterHints.enabled": false, // Подсказки при вводе параметров функции
+    "editor.parameterHints.enabled": true, // Подсказки при вводе параметров функции
     "editor.renderFinalNewline": "dimmed", // Отображение последней строки
     "editor.renderLineHighlight": "all", // Выделение текущей строки
     "editor.renderWhitespace": "all", // Отображение пробелов
@@ -40,7 +40,9 @@
         "source.fixAll": "never",
         "source.organizeImports": "explicit",
         "source.organizeLinkDefinitions": "explicit",
-        "source.unusedImports": "explicit"
+        "source.unusedImports": "explicit",
+        // "source.convertImportFormat": "explicit",
+        // "source.fixAll.pylance": "explicit",
     },
     "editor.rulers": [
         100 // Вертикальная линейка
@@ -205,6 +207,6 @@
     "code-runner.showRunCommandInEditorContextMenu": false, // Показывать кнопку запуска в контекстном меню редактора
     "code-runner.showRunCommandInExplorerContextMenu": false, // Показывать кнопку запуска в контекстном меню проводника
     "code-runner.executorMap": {
-        "csharp": "cd $dir && dotnet run" // Запуск C#
-    }
+        "csharp": "cd $dir && dotnet run", // Запуск C#
+    },
 }
