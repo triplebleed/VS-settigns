@@ -205,6 +205,6 @@
     "code-runner.showRunCommandInEditorContextMenu": false, // Показывать кнопку запуска в контекстном меню редактора
     "code-runner.showRunCommandInExplorerContextMenu": false, // Показывать кнопку запуска в контекстном меню проводника
     "code-runner.executorMap": {
-        "csharp": "cd $dir && dotnet run", // Запуск C#
-    },
+        "csharp": "cd $dir && dotnet run" // Запуск C#
+    }
 }
